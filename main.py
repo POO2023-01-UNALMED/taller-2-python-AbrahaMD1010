@@ -19,8 +19,8 @@ class Auto:
         pass
 
     def cantidadAsientos(self) -> int :
+        i=0
         for elementos in self.asientos:
-            i=0
             if (elementos!=None):
                 i+=1
         return i
